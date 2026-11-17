@@ -1,40 +1,42 @@
-# Genetic-Algorithms----Missionaries-Cannibals-
-# 🌊 Missionaries & Cannibals – AI River Crossing Solver
+# 🌊 Missionaries & Cannibals – Genetic Algorithm Solver
 
-**Can logic, strategy, and artificial intelligence safely get everyone across the river?**
+**Can evolution and artificial intelligence find the perfect way across the river?**
 
-Missionaries & Cannibals is an interactive Artificial Intelligence project that explores one of the classic problems in the field of AI: the River Crossing Puzzle.
+Missionaries & Cannibals is an interactive Artificial Intelligence project that explores one of the classic problems in AI: the River Crossing Puzzle, using a traditional Genetic Algorithm.
 
-The challenge is simple to understand, but surprisingly interesting to solve: three missionaries and three cannibals must cross a river using a boat with limited capacity. However, the missionaries must never be outnumbered by cannibals on either riverbank, otherwise the rules of the puzzle are violated.
+The challenge is simple to understand, but surprisingly difficult to solve: three missionaries and three cannibals must cross a river using a boat with limited capacity. However, the missionaries must never be outnumbered by cannibals on either riverbank, otherwise the rules of the puzzle are violated.
 
-Our application transforms this classic logical challenge into a visual and interactive experience, allowing users to explore how different AI search algorithms approach the same problem.
+Our application approaches this problem through the principles of natural evolution, simulating how a population of candidate solutions evolves over successive generations to discover a valid and efficient crossing strategy.
 
-### 🧠 AI Algorithms
+### 🧬 Genetic Algorithm
 
-We implement and compare three fundamental search algorithms:
+The application implements the fundamental mechanisms of a classical Genetic Algorithm:
 
-- **Breadth-First Search (BFS)** – explores states level by level and finds an optimal solution in terms of crossings.
-- **Depth-First Search (DFS)** – explores possible paths deeply before backtracking.
-- *A Search*\* – uses heuristic guidance to efficiently explore promising states.
+- **Population Initialization** – generates an initial population of candidate crossing sequences.
+- **Fitness Evaluation** – evaluates each candidate based on its validity, efficiency, and ability to reach the goal.
+- **Selection** – chooses better-performing individuals for reproduction.
+- **Crossover** – combines genetic information from parent solutions to create new candidates.
+- **Mutation** – introduces random changes to maintain diversity and explore new possibilities.
+- **Evolution** – repeats the process across generations until a valid solution is discovered or a stopping condition is reached.
 
 ### 🚀 Key Features
 
 - Interactive river-crossing simulation.
-- Automatic puzzle solving.
-- Step-by-step visualization of the solution.
-- Algorithm selection and comparison.
-- State validation and constraint checking.
-- Performance statistics, including explored states, execution time, and solution length.
+- Automatic puzzle solving using a Genetic Algorithm.
+- Step-by-step visualization of the best solution.
+- Visualization of population evolution across generations.
+- Fitness score tracking and performance statistics.
+- Configurable genetic parameters, such as population size, mutation rate, and crossover rate.
+- Validation of crossing constraints and solution correctness.
 
 ### 🎯 Project Goals
 
-Our main goal is to understand and demonstrate how Artificial Intelligence can solve constraint-based problems through state-space representation, search strategies, and heuristic optimization.
+Our main goal is to demonstrate how evolutionary computation can solve constraint-based problems through natural selection-inspired mechanisms.
 
-Beyond finding a solution, we aim to make the decision-making process visible, understandable, and engaging.
+By observing how candidate solutions evolve, users can understand how selection, crossover, mutation, and fitness evaluation work together to produce increasingly effective solutions.
 
 ---
 
 **Developed as a university project for the Artificial Intelligence course.**
 
-*Four developers. Three algorithms. One river. Countless possibilities.*
-
+*Four developers. One population. Countless generations. One river to cross.*
